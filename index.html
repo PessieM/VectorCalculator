@@ -1,0 +1,68 @@
+<!--index.html
+    vector calculations
+    Pessie Mittelman
+    3/26/25 -->
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Vector Calculator</title>
+        <link rel="icon" type="image/icon" href="favicon.ico">
+        <link rel="stylesheet" href="styles.css">
+        <script src="script.js" defer></script>
+    </head>
+    <body>
+        <header>
+            <h1>Vector Calculatator</h1>
+        </header>
+
+        <div class="container1">
+            <div class="column">
+                <h2>Vector 1</h2>
+                <p>Enter the 2 components of vector 1:</p>
+                <form id="vectorVForm">
+                    <input type="number" id="v0"/>
+                    <input type="number" id="v1"/>
+                    <button type="submit">Enter Vector 1</button>
+                </form>
+            </div>
+
+            <div class="column">
+                <h2>Vector 2</h2>
+                <p>Enter the 2 components of vector 2:</p>
+                <form id="vectorWForm">
+                    <input type="number" id="w0"/>
+                    <input type="number" id="w1"/>
+                    <button type="submit">Enter Vector 2</button>    
+                </form>
+            </div>
+        </div>
+
+        <div class="container2">
+            <button id="magnitudeV">Magnitude of Vector 1</button>
+            <p id="showMagnitudeV"></p>
+            <button id="magnitudeW">Magnitude of Vector 2</button>
+            <p id="showMagnitudeW"></p>
+
+            <button id="unitVectorV">Unit Vector of Vector 1</button>
+            <p id="showUnitVectorV"></p>
+            <button id="unitVectorW">Unit Vector of Vector 2</button>
+            <p id="showUnitVectorW"></p>
+
+            <button id="add">Add Both Vectors</button>
+            <p id="sum"></p>
+
+            <button id="subtractV-W">Subtract Vector 1 - Vector 2</button>
+            <p id="differenceV-W"></p>
+            <button id="subtractW-V">Subtract Vector 2 - Vector 1</button>
+            <p id="differenceW-V"></p>
+
+            <button id="dotProduct">Dot Product of Both Vectors</button>
+            <p id="showDotProduct"></p>
+        </div>
+
+        <footer>&copy; Pessie Mittelman 2025</footer>
+
+    </body>
+</html>
